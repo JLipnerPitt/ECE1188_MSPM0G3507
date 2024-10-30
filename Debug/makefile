@@ -139,7 +139,7 @@ all: $(OBJS) $(GEN_CMDS)
 empty_LP_MSPM0G3507_nortos_gcc.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: GNU Linker'
-	"C:/ti/ccs1271/ccs/tools/compiler/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc-9.2.1.exe" @"device.opt"  -O2 -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -mthumb -mfloat-abi=soft -Wl,-Map,"empty_LP_MSPM0G3507_nortos_gcc.map" -nostartfiles -static -Wl,--gc-sections -L"C:/ti/mspm0_sdk_2_02_00_05/source" -L"C:/ti/mspm0_sdk_2_02_00_05/empty_LP_MSPM0G3507_nortos_gcc" -L"C:/ti/mspm0_sdk_2_02_00_05/empty_LP_MSPM0G3507_nortos_gcc/Debug/syscfg" -L"C:/ti/ccs1271/ccs/tools/compiler/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/lib/thumb/v6-m/nofp" -march=armv6-m -mthumb -o"empty_LP_MSPM0G3507_nortos_gcc.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1271/ccs/tools/compiler/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc-9.2.1.exe" @"device.opt"  -O2 -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -mthumb -mfloat-abi=soft -Wl,-Map,"empty_LP_MSPM0G3507_nortos_gcc.map" -nostartfiles -static -Wl,--gc-sections -L"C:/ti/mspm0_sdk_2_02_00_05/source" -L"C:/ti/mspm0_sdk_2_02_00_05/empty_LP_MSPM0G3507_nortos_gcc" -L"C:/ti/mspm0_sdk_2_02_00_05/empty_LP_MSPM0G3507_nortos_gcc/Debug/syscfg" -L"C:/ti/ccs1271/ccs/tools/compiler/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/lib/thumb/v6-m/nofp" -L"C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp" -march=armv6-m -mthumb -o"empty_LP_MSPM0G3507_nortos_gcc.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
@@ -147,7 +147,7 @@ empty_LP_MSPM0G3507_nortos_gcc.out: $(OBJS) $(GEN_CMDS)
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
 	-$(RM) "empty.o" "ti_msp_dl_config.o" "startup_mspm0g350x_gcc.o" 
-	-$(RM) "empty.d" "ti_msp_dl_config.d" "startup_mspm0g350x_gcc.d" 
+	-$(RM) "empty.d" "ti_msp_dl_config.d" "startup_mspm0g350x_gcc.d" "startup_mspm0g350x_gcc.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

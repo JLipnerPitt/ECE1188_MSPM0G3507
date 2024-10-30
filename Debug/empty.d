@@ -78,7 +78,8 @@ empty.o: ../empty.c \
  C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/dl_vref.h \
  C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/m0p/dl_interrupt.h \
- C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/m0p/dl_systick.h
+ C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/m0p/dl_systick.h \
+ C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/mspm0g350x.h
 
 ti_msp_dl_config.h:
 
@@ -235,3 +236,5 @@ C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/dl_wwdt.h:
 C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/m0p/dl_interrupt.h:
 
 C:/ti/mspm0_sdk_2_02_00_05/source/ti/driverlib/m0p/dl_systick.h:
+
+C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/mspm0g350x.h:

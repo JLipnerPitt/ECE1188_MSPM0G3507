@@ -11,7 +11,8 @@ SYSCFG_SRCS += \
 C_SRCS += \
 ../empty.c \
 ./ti_msp_dl_config.c \
-C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c 
+C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c \
+../startup_mspm0g350x_gcc.c 
 
 GEN_CMDS += \
 ./device_linker.lds 
@@ -24,6 +25,7 @@ GEN_FILES += \
 C_DEPS += \
 ./empty.d \
 ./ti_msp_dl_config.d \
+./startup_mspm0g350x_gcc.d \
 ./startup_mspm0g350x_gcc.d 
 
 GEN_OPTS += \
@@ -50,6 +52,7 @@ GEN_MISC_FILES__QUOTED += \
 C_DEPS__QUOTED += \
 "empty.d" \
 "ti_msp_dl_config.d" \
+"startup_mspm0g350x_gcc.d" \
 "startup_mspm0g350x_gcc.d" 
 
 GEN_FILES__QUOTED += \
@@ -60,7 +63,8 @@ GEN_FILES__QUOTED += \
 C_SRCS__QUOTED += \
 "../empty.c" \
 "./ti_msp_dl_config.c" \
-"C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c" 
+"C:/ti/mspm0_sdk_2_02_00_05/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c" \
+"../startup_mspm0g350x_gcc.c" 
 
 SYSCFG_SRCS__QUOTED += \
 "../empty.syscfg" 

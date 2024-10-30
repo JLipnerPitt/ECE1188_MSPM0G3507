@@ -31,6 +31,7 @@
  */
 
 #include "ti_msp_dl_config.h"
+#include "mspm0g350x.h"
 
 int main(void)
 {
